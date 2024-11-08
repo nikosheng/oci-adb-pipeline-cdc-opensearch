@@ -1,0 +1,28 @@
+{
+    "mappings": {
+        "dynamic": true,
+        "_meta": {
+            "array_fields": ["CATEGORIES"]
+        },
+        "properties": {
+            "ID": {"type": "integer"},
+            "NAME": {"type": "text"},
+            "BRAND": {"type": "text"},
+            "IMAGE": {"type": "text"},
+            "PRICE": {"type": "float"},
+            "CATEGORIES": {"type": "text"},
+            "POPULARITY": {"type": "integer"},
+            "DESCRIPTION": {"type": "text"},
+            "STOCK_NUMBER": {"type": "integer"},
+            "PID": {"type": "integer"},
+            "UPDATED_TIMESTAMP": {"type": "date"},
+            "dynamic_object": {
+                "type": "object",
+                "dynamic": true
+            }
+        }
+    }
+}
+
+
+"01JC31W6XY1BT0858ZJ004845H - root - INFO - b'{\"ID\":3308,\"NAME\":\"Huawei - Mate XT 5G LTE with 2TB Memory Foldable Phone - Dark Black\",\"BRAND\":\"Huawei\",\"IMAGE\":\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1I3r-hPhEAGva_yDEN0nypEc-WSZPpnbLw&s.jpeg\",\"PRICE\":4999.99,\"VECTORS\":null,\"CATEGORIES\":[\"Cell Phones\",\"Foldable Phones\"],\"POPULARITY\":1001,\"DESCRIPTION\":\"The Huawei Mate XT is a groundbreaking tri-fold smartphone that pushes the boundaries of foldable technology.\",\"STOCK_NUMBER\":1000000,\"PID\":3293,\"UPDATED_TIMESTAMP\":\"2024-11-07T07:08:13.279226\"}'"
